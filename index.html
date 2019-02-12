@@ -18,6 +18,7 @@
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+  <link rel="stylesheet" href="styles.css">
 
   <!-- Body ––––––––––––––––––––––––––––––– -->
   
@@ -31,24 +32,50 @@
       </div>
   </header>
 
-  <div class="fl w-third pa2 sidebar">
-    <ul>
-      <li>Menu item 1</li>
-      <li>Menu item 2</li>
-      <li>Menu item 3</li>
-    </ul>
+  <div class="cf w-100 pv3 ph6-ns">
     
-  </div>
+      <div class="fl w-10 pa2 sidebar">
+        <ul class="sans-serif">
+          <li class="ttu f6">Notifications</li>
+          <li class="ttu f6">Menu item 2</li>
+          <li class="ttu f6">Menu item 3</li>
+        </ul>
+      </div>  
+      <div class="fl w-90 pa2 ph3-ns ">
+        <h3 class="sans-serif">Site for the team to be in the same page, team can look at intented design, can copy styles and stablish a common language</h3>
+      </div>
 
-  <div class="fl w-50 pa2">
-    <h2>Two columns one for Notifications UI</h2>
-    
+       
+    </div>
+   
   </div>
+  
+  <section class="cf w-90 pv3 ph3-ns center">
+    <div>
+      <div class="fl w-50 pa2">
+        <h3 class="sans-serif tc">Two columns one for Notifications UI</h3>
+        <div class="bg-wolf pa3">
+          <p> UI for unread but seen notification</p>
+          <div class="noti-noread center">        </div></div>
+        <pre><code>.noti-noread {
+  background: #FFFFFF;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.11);
+  border-radius: 3px;
+}</code></pre>
+  
+      </div>
 
-   <div class="fl w-50 pa2">
-    <h2>Two columns one types of notifications</h2>
-    
-  </div>
+      <div class="fl w-50 pa2 ">
+        <h3 class="sans-serif tc">Types of waitlists</h3>
+        <ul>
+          <li>Waitlisting </li>
+          <li>Bills </li>
+          <li>Holds </li>
+          <li>General </li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
 
 

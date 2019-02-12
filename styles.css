@@ -1,0 +1,35 @@
+body{
+	font-family: roboto, helvetica, 'helvetica neue', arial, sans-serif;
+	line-height: 1.5;
+
+}
+
+/* Colors
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.bg-wolf{background-color: #EFEFF4;}
+
+
+.noti-noread{
+	background: #FFFFFF;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.11);
+	border-radius: 3px;
+	height: 53px;
+	width: 213px
+}
+
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+code {
+  padding: .2rem .5rem;
+  margin-top: 0px;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px; }
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre;
+  margin-top: 0px !important;
+}
